@@ -82,7 +82,7 @@ body::-webkit-scrollbar-thumb{
     margin: 10px 0px 200px 0px;
     background-color: rgb(30, 30, 83);
     width: 314px;
-    height: 768px;
+    height: 891px;
 }
 .imagem1{
     width: 133px;
@@ -109,10 +109,10 @@ body::-webkit-scrollbar-thumb{
     border-radius: 10px;
 }
 #lado_direito{
-    margin: -968px -50px auto 76.80%;
+    margin: -1091px -50px auto 76.80%;
     background-color: rgb(30, 30, 83);
     width: 314px;
-    height: 768px;
+    height: 891px;
 }
 .imagem4{
     width: 133px;
@@ -151,39 +151,42 @@ body::-webkit-scrollbar-thumb{
     transition: all 1s ease;
 }
 .texto1{
-    margin: -780px 390px 0px 370px;
+    margin: -920px 371px 0px 371px;
     color: black;
 }
 .titulo1{
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: Cambria;
     font-size: 30px;
     text-align: left;
-    margin-bottom: 0px;
+    margin-bottom: -20px;
 }
 .titulo2{
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: Cambria;
     font-size: 30px;
-    text-align: left;
-    margin-bottom: 0px;
+    text-align: right;
+    margin-bottom: -20px;
+    margin-top: 0px;
 }
 .titulo3{
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: Cambria;
     font-size: 30px;
     text-align: left;
-    margin-bottom: 0px;
+    margin-bottom: -20px;
+    margin-top: 0px;
 }
 .paragrafo{
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-family: Lucida Bright;
+    font-weight: 100;
+    font-size: 20px;
     text-align: left;
 }
 #jogos_nome{
-    background-image: linear-gradient(to bottom, #FFFFFF 0%, rgba(255, 0, 0, 0.875) 48.44%, #0038FF 100%);
+    background: linear-gradient(#FFFFFF 0%, rgba(255, 0, 0, 0.875) 48.44%, #0038FF 100%);
     color: black;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: large;
-    font-family: Jazz LET, fantasy;
+    font-size: 20px;
+    font-family: Copperplate, fantasy;
 }
 
