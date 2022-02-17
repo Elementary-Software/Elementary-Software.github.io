@@ -67,79 +67,62 @@ body::-webkit-scrollbar-thumb{
     letter-spacing: -3px;
 }
 #lado_esquerdo{
-    margin-top: 110px;
-    margin-left: auto;
-    margin-right: 200px;
+    margin: 10px 0px 200px 0px;
     background-color: black;
-    position: absolute;
     width: 314px;
     height: 768px;
 }
 .imagem1{
-    position: absolute;
     width: 133px;
     height: 171px;
-    left: 91px;
-    top: 69px;
+    margin: 69px auto auto 91px;
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
 }
 .imagem2{
-    position: absolute;
     width: 212px;
     height: 121px;
-    left: 51px;
-    top: 323px;
+    margin: 83px auto auto 51px;
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
 }
 .imagem3{
-    position: absolute;
     width: 254px;
     height: 171px;
-    left: 30px;
-    top: 527px;
+    margin: 83px auto auto 30px;
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
 }
 #lado_direito{
-    margin-top: 110px;
-    margin-left: 66.75%;
-    margin-right: auto;
+    margin-top: -968px;
+    margin-left: 74.20%;
     background-color: black;
-    position: absolute;
     width: 314px;
     height: 768px;
 }
 .imagem4{
-    position: absolute;
     width: 133px;
     height: 171px;
-    left: 95px;
-    top: 69px;
+    margin: 69px auto auto 95px;
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
 }
 .imagem5{
-    position: absolute;
     width: 212px;
     height: 121px;
-    left: 52px;
-    top: 323px;
+    margin: 83px auto auto 52px;
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
 }
 .imagem6{
-    position: absolute;
     width: 254px;
     height: 171px;
-    left: 30px;
-    top: 527px;
+    margin: 83px auto auto 30px;
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
@@ -155,4 +138,22 @@ body::-webkit-scrollbar-thumb{
     -ms-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
+}
+.texto1{
+    margin: -760px 350px 0px 350px;
+}
+.paragrafo1{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+.paragrafo2{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: right;
+}
+.paragrafo3{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: left;
 }
