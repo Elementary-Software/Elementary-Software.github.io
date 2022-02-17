@@ -81,7 +81,7 @@ body::-webkit-scrollbar-thumb{
     height: 171px;
     left: 91px;
     top: 69px;
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
 }
@@ -91,7 +91,7 @@ body::-webkit-scrollbar-thumb{
     height: 121px;
     left: 51px;
     top: 323px;
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
 }
@@ -101,7 +101,7 @@ body::-webkit-scrollbar-thumb{
     height: 171px;
     left: 30px;
     top: 527px;
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
 }
@@ -120,7 +120,7 @@ body::-webkit-scrollbar-thumb{
     height: 171px;
     left: 95px;
     top: 69px;
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
 }
@@ -130,7 +130,7 @@ body::-webkit-scrollbar-thumb{
     height: 121px;
     left: 52px;
     top: 323px;
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
 }
@@ -140,7 +140,19 @@ body::-webkit-scrollbar-thumb{
     height: 171px;
     left: 30px;
     top: 527px;
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
+}
+.imagem1:hover,.imagem2:hover,.imagem3:hover,.imagem4:hover,.imagem5:hover,.imagem6:hover{
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
 }
