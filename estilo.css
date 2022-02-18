@@ -259,4 +259,17 @@ body::-webkit-scrollbar-thumb{
     margin-left: 500px;
     margin-right: 500px;
     padding: 30px;
+    border-radius: 20px;
+}
+.b1{
+    margin-left: 45px;
+}
+.img1{
+    margin-right: 50px;
+}
+.img3{
+    margin-left: 50px;
+}
+.img4{
+    margin-left: 50px;
 }
