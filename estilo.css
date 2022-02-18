@@ -14,10 +14,16 @@ body::-webkit-scrollbar-thumb{
     background: #ffffff;
     border-radius: 100px;
 }
-#botoes_superiores{
-    text-decoration:none;
+#botoes_superiores1{
+    text-decoration: none;
+    border-right: 2px solid white;
 }
-#botoes_superiores:hover{
+#botoes_superiores2{
+    text-decoration: none;
+    padding-left: 5px;
+    border-left: 2px solid white;
+}
+#botoes_superiores1:hover,#botoes_superiores2:hover{
     color: #173ecc;
 }
 .segunda_pagina{
@@ -194,12 +200,13 @@ body::-webkit-scrollbar-thumb{
     color: black;
 }
 .titulo1{
+    border: 2px solid black;
+    border-radius: 30px;
     font-family: Roboto, sans-serif;
     font-weight: 600;
     font-size: 30px;
     text-align: left;
     margin-bottom: -10px;
-    
 }
 .titulo2{
     font-family: Roboto, sans-serif;
