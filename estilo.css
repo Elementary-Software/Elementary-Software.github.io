@@ -200,13 +200,16 @@ body::-webkit-scrollbar-thumb{
     color: black;
 }
 .titulo1{
-    border: 2px solid black;
-    border-radius: 30px;
     font-family: Roboto, sans-serif;
     font-weight: 600;
     font-size: 30px;
     text-align: left;
     margin-bottom: -10px;
+    margin-right: 410px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    padding: 2px;
+    border-radius: 12px;
 }
 .titulo2{
     font-family: Roboto, sans-serif;
@@ -215,6 +218,11 @@ body::-webkit-scrollbar-thumb{
     text-align: right;
     margin-bottom: -10px;
     margin-top: 0px;
+    margin-left: 407px;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    padding: 2px;
+    border-radius: 12px;
 }
 .titulo3{
     font-family: Roboto, sans-serif;
@@ -223,6 +231,11 @@ body::-webkit-scrollbar-thumb{
     text-align: left;
     margin-bottom: -10px;
     margin-top: 0px;
+    margin-right: 370px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    padding: 2px;
+    border-radius: 12px;
 }
 .paragrafo1{
     font-family: Segoe UI;
