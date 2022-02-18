@@ -71,6 +71,7 @@ body::-webkit-scrollbar-thumb{
     margin-top: 20px;
     margin-bottom: auto;
     padding-left: 10px;
+    border-radius: 10px;
 }
 #cabecalho{
     display: flex;
@@ -78,7 +79,7 @@ body::-webkit-scrollbar-thumb{
 }
 #perfil{
     width: 15%;
-    border-radius: 40%;
+    border-radius: 10%;
     margin: 20px 0;
 }
 #info{
@@ -292,4 +293,4 @@ body::-webkit-scrollbar-thumb{
 }
 .img4{
     margin-left: 50px;
-}
+} 
