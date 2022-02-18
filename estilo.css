@@ -85,7 +85,7 @@ body::-webkit-scrollbar-thumb{
     letter-spacing: -3px;
 }
 #lado_esquerdo{
-    margin: 0px 0px 200px 0px;
+    margin: 0px 0px 0px 0px;
     background-color: rgb(30, 30, 83);
     width: 314px;
     height: 891px;
@@ -97,6 +97,11 @@ body::-webkit-scrollbar-thumb{
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
 }
 .imagem2{
     width: 212px;
@@ -105,6 +110,11 @@ body::-webkit-scrollbar-thumb{
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
 }
 .imagem3{
     width: 254px;
@@ -113,9 +123,15 @@ body::-webkit-scrollbar-thumb{
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
 }
 #lado_direito{
-    margin: -1091px -50px auto 76.80%;
+    float: right;
+    margin: -891px auto auto auto;
     background-color: rgb(30, 30, 83);
     width: 314px;
     height: 891px;
@@ -127,6 +143,11 @@ body::-webkit-scrollbar-thumb{
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
 }
 .imagem5{
     width: 212px;
@@ -135,6 +156,11 @@ body::-webkit-scrollbar-thumb{
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
 }
 .imagem6{
     width: 254px;
@@ -143,21 +169,28 @@ body::-webkit-scrollbar-thumb{
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
-}
-.imagem1:hover,.imagem2:hover,.imagem3:hover,.imagem4:hover,.imagem5:hover,.imagem6:hover{
-    -webkit-transform:scale(1.25);
-    -moz-transform:scale(1.25);
-    -ms-transform:scale(1.25);
-    -o-transform:scale(1.25);
-    transform:scale(1.25);
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -ms-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
 }
+.imagem1:hover,.imagem2:hover,.imagem4:hover,.imagem5:hover{
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+.imagem3:hover,.imagem6:hover{
+    -webkit-transform:scale(1.20);
+    -moz-transform:scale(1.20);
+    -ms-transform:scale(1.20);
+    -o-transform:scale(1.20);
+    transform:scale(1.20);
+}
 .texto1{
-    margin: -860px 362px 0px 370px;
+    margin: -868px 362px 0px 370px;
     color: black;
 }
 .titulo1{
