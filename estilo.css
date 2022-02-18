@@ -287,10 +287,20 @@ body::-webkit-scrollbar-thumb{
 }
 .img1{
     margin-right: 50px;
+    position: relative;
 }
+.img1:hover{top:-8px;box-shadow:0 2px 2px rgb(30, 30, 83)}
+.img2{
+    position: relative;
+}
+.img2:hover{top:-8px;box-shadow:0 2px 2px rgb(30, 30, 83)}
 .img3{
     margin-left: 50px;
+    position: relative;
 }
+.img3:hover{top:-8px;box-shadow:0 2px 2px rgb(30, 30, 83)}
 .img4{
     margin-left: 50px;
-} 
+    position: relative;
+}
+.img4:hover{top:-8px;box-shadow:0 2px 2px rgb(30, 30, 83)}
