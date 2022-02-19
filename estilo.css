@@ -88,9 +88,48 @@ body::-webkit-scrollbar-thumb{
     margin-left: 5%;
 }
 #nome{
-    font-size: 250%;
+    font-size: 300%;
     letter-spacing: -3px;
 }
+.titulos{
+    text-align: center;
+}
+.imagem_texto{
+    display: flex;
+    align-items: center;
+
+}
+.imghome{
+    width: 10%;
+    padding: 1%;
+    border-radius: 20%;
+}
+.div_fundadores{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.img_fundadores{
+    width: 15%;
+    border-radius: 20%;
+    padding: 2%;
+}
+.nomes_fundadores{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.nomes_fundadores p{
+    font-size: 20px;
+}
+.texto_home{
+    text-align: center;
+    font-size: 20px;
+}
+
 #lado_esquerdo{
     margin: 0px 0px 0px 0px;
     background-color: rgb(30, 30, 83);
