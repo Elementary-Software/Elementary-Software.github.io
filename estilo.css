@@ -58,13 +58,33 @@ body::-webkit-scrollbar-thumb{
     justify-content: space-between;
 }  
 #links-superior a{
-        color: white;
-        font-size: 110%;
+    color: white;
+    font-size: 110%;
 }
 .container{
     max-width:90%;
     margin: 0 auto;
 }
+.nome_empresa{
+    animation: gradiente 10s ease infinite;
+    background: linear-gradient(-45deg, #5800FF, #ee7752, #e73c7e, #23a6d5, #EEEEEE, #C70039, #23d5ab, #BE8ABF, #FFD369, #3A0088, #1597BB, #F90716, #49FF00) no-repeat;
+    background-size: 1400px 40px;
+    color: rgb(0, 0, 0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 
+@keyframes gradiente{
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 50% 100%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
+  }
 .caixa{
     display: grid;
     background-color: #00040a;
