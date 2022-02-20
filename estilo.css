@@ -117,11 +117,10 @@ body::-webkit-scrollbar-thumb{
 .imagem_texto{
     display: flex;
     align-items: center;
-
 }
 .imghome{
-    width: 10%;
-    padding: 1%;
+    width: 15%;
+    padding: 1.5%;
     border-radius: 20%;
 }
 .div_fundadores{
