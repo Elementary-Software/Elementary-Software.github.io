@@ -117,11 +117,21 @@ body::-webkit-scrollbar-thumb{
 .imagem_texto{
     display: flex;
     align-items: center;
+    margin-left: -10px; 
 }
 .imghome{
     width: 15%;
     padding: 1.5%;
     border-radius: 20%;
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.imghome:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 .div_fundadores{
     display: flex;
@@ -131,7 +141,7 @@ body::-webkit-scrollbar-thumb{
 
 }
 .img_fundadores{
-    width: 15%;
+    width: 12%;
     border-radius: 20%;
     padding: 2%;
 }
