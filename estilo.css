@@ -414,6 +414,17 @@ body::-webkit-scrollbar-thumb{
     border-radius: 20px;
     text-decoration: none;
  }
+ .b1:active{
+    animation: recusar 0.1s ease-in-out;
+ }
+ @keyframes recusar{
+    from{
+        transform: translateX(10px);
+    }
+    to{
+        transform: translateX(-10px);
+    }
+ }
 .img1{
     margin-right: 50px;
     position: relative;
